@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace webstore.Data.Models
 {
-    public class Smartphone
+    public class MobilePhone
     {
         public int id { set; get; }
 
@@ -21,7 +21,7 @@ namespace webstore.Data.Models
 
         public bool isFavourite { set; get; }
 
-        public int available { set; get; }
+        public bool available { set; get; }
 
         public int categoryID { set; get; }
 

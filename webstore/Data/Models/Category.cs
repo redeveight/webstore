@@ -9,8 +9,8 @@ namespace webstore.Data.Models
     {
         public int id { set; get; }
         public string categoryName { set; get; }
-        public int desc { set; get; }
+        public string description { set; get; }
 
-        public List<Smartphone> smartphones { set; get; }
+        public List<MobilePhone> mobilePhones { set; get; }
     }
 }
