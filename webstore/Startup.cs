@@ -25,7 +25,11 @@ namespace webstore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
             }
+
+            app.UseStaticFiles();
+            //app.UseMvcWithDefaultRoute();
 
             app.UseRouting();
 
